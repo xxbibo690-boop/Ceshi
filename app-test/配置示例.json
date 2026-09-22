@@ -1,0 +1,11 @@
+{
+  "app": "CloudStarPan",
+  "provider": "github",
+  "readonly": true,
+  "features": ["listDir", "search", "download", "preview"],
+  "rateLimits": {
+    "codeSearchPerMinute": 10,
+    "contentsMaxBytes": 104857600
+  },
+  "tags": ["鸿蒙", "网盘", "测试", "HarmonyOS"]
+}

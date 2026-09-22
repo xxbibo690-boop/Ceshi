@@ -1,0 +1,5 @@
+这个文件名里带空格，用来验证 URL 编码：
+application/x-www-form-urlencoded 之外，GitHub contents API
+对空格使用 %20，逐段 encodeURIComponent 后应能正确取到本文件。
+
+如果你能看到这行字，说明带空格文件名处理正常。
